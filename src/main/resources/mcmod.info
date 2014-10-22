@@ -1,0 +1,16 @@
+[
+{
+  "modid": "OreCoreExtended",
+  "name": "OreCore Extended",
+  "description": "An extension to the OreCore mod which includes more esoteric ore states (chunks, dirty dust, etc)",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://github.com/bradsk88/OreCoreExtended",
+  "updateUrl": "",
+  "authorList": ["bradsk88"],
+  "credits": "Brad Johnson (bradsk88)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
