@@ -1,0 +1,2 @@
+The Clump, Shard and Crystal textures were taken from Mekanism:
+https://github.com/aidancbrady/Mekanism
