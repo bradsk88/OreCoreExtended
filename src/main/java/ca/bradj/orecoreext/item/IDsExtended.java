@@ -69,5 +69,15 @@ public class IDsExtended {
 	public static final int STEEL_DIRTY_DUST_ID = 4249;
 	public static final int TIN_DIRTY_DUST_ID = 4250;
 	public static final int ZINC_DIRTY_DUST_ID = 4251;
+	
+	public static final int DIAMOND_DUST_ID = 4252;
+	public static final int DIAMOND_NUGGET_ID = 4253;
+	public static final int DIAMOND_INGOT_ID = 4254;
+	public static final int DIAMOND_DIRTY_DUST_ID = 4255;
+	
+	public static final int OBSIDIAN_DUST_ID = 4256;
+	public static final int OBSIDIAN_NUGGET_ID = 4257;
+	public static final int OBSIDIAN_INGOT_ID = 4258;
+	public static final int OBSIDIAN_DIRTY_DUST_ID = 4259;
 
 }

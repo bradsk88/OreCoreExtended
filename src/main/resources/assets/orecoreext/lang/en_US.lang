@@ -20,6 +20,11 @@ item.Copper.Clump.name=Copper Clump
 item.Copper.Shard.name=Copper Shard
 item.Copper.Dirty.Dust.name=Dirty Copper Dust
 
+item.Diamond.Dust.name=Diamond Dust
+item.Diamond.Nugget.name=Diamond Nugget
+item.Diamond.Ingot.name=Diamond Ingot 
+item.Diamond.Dirty.Dust.name=Dirty Diamond Dust
+
 item.Gold.Crystal.name=Gold Crystal
 item.Gold.Clump.name=Gold Clump
 item.Gold.Shard.name=Gold Shard
@@ -44,6 +49,11 @@ item.Nickel.Crystal.name=Nickel Crystal
 item.Nickel.Dirty.Dust.name=Dirty Nickel Dust
 item.Nickel.Clump.name=Nickel Clump
 item.Nickel.Shard.name=Nickel Shard
+
+item.Obsidian.Dust.name=Obsidian Dust
+item.Obsidian.Nugget.name=Obsidian Nugget
+item.Obsidian.Ingot.name=Obsidian Ingot 
+item.Obsidian.Dirty.Dust.name=Dirty Obsidian Dust
 
 item.Osmium.Crystal.name=Osmium Crystal
 item.Osmium.Shard.name=Osmium Shard

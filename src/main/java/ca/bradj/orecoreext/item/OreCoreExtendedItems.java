@@ -21,6 +21,11 @@ import ca.bradj.orecoreext.item.copper.CopperDirtyDust;
 import ca.bradj.orecoreext.item.copper.CopperExt;
 import ca.bradj.orecoreext.item.copper.CopperShard;
 import ca.bradj.orecoreext.item.copper.carb.Copper2CarbonateExt;
+import ca.bradj.orecoreext.item.diamond.Diamond;
+import ca.bradj.orecoreext.item.diamond.DiamondDirtyDust;
+import ca.bradj.orecoreext.item.diamond.DiamondDust;
+import ca.bradj.orecoreext.item.diamond.DiamondIngot;
+import ca.bradj.orecoreext.item.diamond.DiamondNugget;
 import ca.bradj.orecoreext.item.gold.GoldClump;
 import ca.bradj.orecoreext.item.gold.GoldCrystal;
 import ca.bradj.orecoreext.item.gold.GoldDirtyDust;
@@ -41,6 +46,11 @@ import ca.bradj.orecoreext.item.nickel.NickelCrystal;
 import ca.bradj.orecoreext.item.nickel.NickelDirtyDust;
 import ca.bradj.orecoreext.item.nickel.NickelExt;
 import ca.bradj.orecoreext.item.nickel.NickelShard;
+import ca.bradj.orecoreext.item.obsidian.Obsidian;
+import ca.bradj.orecoreext.item.obsidian.ObsidianDirtyDust;
+import ca.bradj.orecoreext.item.obsidian.ObsidianDust;
+import ca.bradj.orecoreext.item.obsidian.ObsidianIngot;
+import ca.bradj.orecoreext.item.obsidian.ObsidianNugget;
 import ca.bradj.orecoreext.item.osmium.OsmiumClump;
 import ca.bradj.orecoreext.item.osmium.OsmiumCrystal;
 import ca.bradj.orecoreext.item.osmium.OsmiumDirtyDust;
@@ -134,6 +144,16 @@ public class OreCoreExtendedItems {
 	public static SteelDirtyDust steelDirtyDust;
 	public static TinDirtyDust tinDirtyDust;
 	public static ZincDirtyDust zincDirtyDust;
+	
+	public static DiamondDust diamondDust;
+	public static DiamondNugget diamondNugget;
+	public static DiamondIngot diamondIngot;
+	public static DiamondDirtyDust diamondDirtyDust;
+	
+	public static ObsidianDust obsidianDust;
+	public static ObsidianNugget obsidianNugget;
+	public static ObsidianIngot obsidianIngot;
+	public static ObsidianDirtyDust obsidianDirtyDust;
 
 	public static final void init() {
 		AluminumExt.init();
@@ -141,11 +161,13 @@ public class OreCoreExtendedItems {
 		BronzeExt.init();
 		CopperExt.init();
 		Copper2CarbonateExt.init();
+		Diamond.init();
 		GoldExt.init();
 		IronExt.init();
 		ManganeseExt.init();
 		NickelExt.init();
 		OsmiumExt.init();
+		Obsidian.init();
 		SilverExt.init();
 		SteelExt.init();
 		TinExt.init();
