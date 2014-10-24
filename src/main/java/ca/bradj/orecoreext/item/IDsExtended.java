@@ -55,5 +55,19 @@ public class IDsExtended {
 	public static final int ZINC_CLUMP_ID = 4236;
 	public static final int ZINC_CRYSTAL_ID = 4237;
 	public static final int ZINC_SHARD_ID = 4238;
+	
+	public static final int ALUMINUM_DIRTY_DUST_ID = 4239;
+	public static final int BRASS_DIRTY_DUST_ID = 4240;
+	public static final int BRONZE_DIRTY_DUST_ID = 4241;
+	public static final int COPPER_DIRTY_DUST_ID = 4242;
+	public static final int GOLD_DIRTY_DUST_ID = 4243;
+	public static final int IRON_DIRTY_DUST_ID = 4244;
+	public static final int MANGANESE_DIRTY_DUST_ID = 4245;
+	public static final int NICKEL_DIRTY_DUST_ID = 4246;
+	public static final int OSMIUM_DIRTY_DUST_ID = 4247;
+	public static final int SILVER_DIRTY_DUST_ID = 4248;
+	public static final int STEEL_DIRTY_DUST_ID = 4249;
+	public static final int TIN_DIRTY_DUST_ID = 4250;
+	public static final int ZINC_DIRTY_DUST_ID = 4251;
 
 }

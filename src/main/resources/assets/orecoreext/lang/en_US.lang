@@ -1,0 +1,76 @@
+itemGroup.tabOreCoreExt=Ore Core
+
+item.Aluminum.Crystal.name=Aluminum Crystal
+item.Aluminum.Clump.name=Aluminum Clump
+item.Aluminum.Shard.name=Aluminum Shard
+item.Aluminum.Dirty.Dust.name=Dirty Aluminum Dust
+
+item.Bronze.Crystal.name=Bronze Crystal
+item.Bronze.Clump.name=Bronze Clump
+item.Bronze.Shard.name=Bronze Shard
+item.Bronze.Dirty.Dust.name=Dirty Bronze Dust
+
+item.Brass.Crystal.name=Brass Crystal
+item.Brass.Clump.name=Brass Clump
+item.Brass.Shard.name=Brass Shard
+item.Brass.Dirty.Dust.name=Dirty Brass Dust
+
+item.Copper.Crystal.name=Copper Crystal
+item.Copper.Clump.name=Copper Clump
+item.Copper.Shard.name=Copper Shard
+item.Copper.Dirty.Dust.name=Dirty Copper Dust
+
+item.Gold.Crystal.name=Gold Crystal
+item.Gold.Clump.name=Gold Clump
+item.Gold.Shard.name=Gold Shard
+item.Gold.Dirty.Dust.name=Dirty Gold Dust
+
+item.Iron.Crystal.name=Iron Crystal
+item.Iron.Clump.name=Iron Clump
+item.Iron.Shard.name=Iron Shard
+item.Iron.Dirty.Dust.name=Dirty Iron Dust
+
+item.Lead.Crystal.name=Lead Crystal
+item.Lead.Clump.name=Lead Clump
+item.Lead.Shard.name=Lead Shard
+item.Lead.Dirty.Dust.name=Dirty Lead Dust
+
+item.Manganese.Crystal.name=Manganese Crystal
+item.Manganese.Clump.name=Manganese Clump
+item.Manganese.Shard.name=Manganese Shard
+item.Manganese.Dirty.Dust.name=Dirty Manganese Dust
+
+item.Nickel.Crystal.name=Nickel Crystal
+item.Nickel.Dirty.Dust.name=Dirty Nickel Dust
+item.Nickel.Clump.name=Nickel Clump
+item.Nickel.Shard.name=Nickel Shard
+
+item.Osmium.Crystal.name=Osmium Crystal
+item.Osmium.Shard.name=Osmium Shard
+item.Osmium.Clump.name=Osmium Clump
+item.Osmium.Dirty.Dust.name=Dirty Osmium Dust
+
+item.Silver.Crystal.name=Silver Crystal
+item.Silver.Shard.name=Silver Shard
+item.Silver.Clump.name=Silver Clump
+item.Silver.Dirty.Dust.name=Dirty Silver Dust
+
+item.Steel.Crystal.name=Steel Crystal
+item.Steel.Clump.name=Steel Clump
+item.Steel.Shard.name=Steel Shard
+item.Steel.Dirty.Dust.name=Dirty Steel Dust
+
+item.Tin.Crystal.name=Tin Crystal
+item.Tin.Shard.name=Tin Shard
+item.Tin.Clump.name=Tin Clump
+item.Tin.Dirty.Dust.name=Dirty Tin Dust
+
+item.Titanium.Crystal.name=Titanium Crystal
+item.Titanium.Shard.name=Titanium Shard
+item.Titanium.Clump.name=Titanium Clump
+item.Titanium.Dirty.Dust.name=Dirty Titanium Dust
+
+item.Zinc.Crystal.name=Zinc Crystal
+item.Zinc.Shard.name=Zinc Shard
+item.Zinc.Clump.name=Zinc Clump
+item.Zinc.Dirty.Dust.name=Dirty Zinc Dust
