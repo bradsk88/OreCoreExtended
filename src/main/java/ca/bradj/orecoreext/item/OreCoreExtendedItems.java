@@ -36,6 +36,11 @@ import ca.bradj.orecoreext.item.iron.IronCrystal;
 import ca.bradj.orecoreext.item.iron.IronDirtyDust;
 import ca.bradj.orecoreext.item.iron.IronExt;
 import ca.bradj.orecoreext.item.iron.IronShard;
+import ca.bradj.orecoreext.item.lead.LeadClump;
+import ca.bradj.orecoreext.item.lead.LeadCrystal;
+import ca.bradj.orecoreext.item.lead.LeadDirtyDust;
+import ca.bradj.orecoreext.item.lead.LeadExt;
+import ca.bradj.orecoreext.item.lead.LeadShard;
 import ca.bradj.orecoreext.item.manganese.ManganeseClump;
 import ca.bradj.orecoreext.item.manganese.ManganeseCrystal;
 import ca.bradj.orecoreext.item.manganese.ManganeseDirtyDust;
@@ -47,10 +52,13 @@ import ca.bradj.orecoreext.item.nickel.NickelDirtyDust;
 import ca.bradj.orecoreext.item.nickel.NickelExt;
 import ca.bradj.orecoreext.item.nickel.NickelShard;
 import ca.bradj.orecoreext.item.obsidian.Obsidian;
+import ca.bradj.orecoreext.item.obsidian.ObsidianClump;
+import ca.bradj.orecoreext.item.obsidian.ObsidianCrystal;
 import ca.bradj.orecoreext.item.obsidian.ObsidianDirtyDust;
 import ca.bradj.orecoreext.item.obsidian.ObsidianDust;
 import ca.bradj.orecoreext.item.obsidian.ObsidianIngot;
 import ca.bradj.orecoreext.item.obsidian.ObsidianNugget;
+import ca.bradj.orecoreext.item.obsidian.ObsidianShard;
 import ca.bradj.orecoreext.item.osmium.OsmiumClump;
 import ca.bradj.orecoreext.item.osmium.OsmiumCrystal;
 import ca.bradj.orecoreext.item.osmium.OsmiumDirtyDust;
@@ -111,6 +119,10 @@ public class OreCoreExtendedItems {
 	public static NickelCrystal nickelCrystal;
 	public static NickelShard nickelShard;
 	
+	public static ObsidianClump obsidianClump;
+	public static ObsidianCrystal obsidianCrystal;
+	public static ObsidianShard obsidianShard;
+	
 	public static OsmiumClump osmiumClump;
 	public static OsmiumCrystal osmiumCrystal;
 	public static OsmiumShard osmiumShard;
@@ -154,6 +166,11 @@ public class OreCoreExtendedItems {
 	public static ObsidianNugget obsidianNugget;
 	public static ObsidianIngot obsidianIngot;
 	public static ObsidianDirtyDust obsidianDirtyDust;
+	
+	public static LeadClump leadClump;
+	public static LeadCrystal leadCrystal;
+	public static LeadShard leadShard;
+	public static LeadDirtyDust leadDirtyDust;
 
 	public static final void init() {
 		AluminumExt.init();
@@ -164,6 +181,7 @@ public class OreCoreExtendedItems {
 		Diamond.init();
 		GoldExt.init();
 		IronExt.init();
+		LeadExt.init();
 		ManganeseExt.init();
 		NickelExt.init();
 		OsmiumExt.init();

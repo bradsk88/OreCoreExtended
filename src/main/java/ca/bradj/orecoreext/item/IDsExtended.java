@@ -79,5 +79,14 @@ public class IDsExtended {
 	public static final int OBSIDIAN_NUGGET_ID = 4257;
 	public static final int OBSIDIAN_INGOT_ID = 4258;
 	public static final int OBSIDIAN_DIRTY_DUST_ID = 4259;
+	
+	public static final int LEAD_CLUMP_ID = 4260;
+	public static final int LEAD_CRYSTAL_ID = 4261;
+	public static final int LEAD_SHARD_ID = 4262;
+	public static final int LEAD_DIRTY_DUST_ID = 4263;
+	
+	public static final int OBSIDIAN_CLUMP_ID = 4264;
+	public static final int OBSIDIAN_CRYSTAL_ID = 4265;
+	public static final int OBSIDIAN_SHARD_ID = 4266;
 
 }
