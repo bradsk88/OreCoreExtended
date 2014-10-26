@@ -1,5 +1,9 @@
 package ca.bradj.orecoreext.item;
 
+import net.minecraft.item.Item;
+
+import com.google.common.base.Optional;
+
 import ca.bradj.orecoreext.item.aluminum.AluminumClump;
 import ca.bradj.orecoreext.item.aluminum.AluminumCrystal;
 import ca.bradj.orecoreext.item.aluminum.AluminumDirtyDust;
@@ -90,59 +94,59 @@ public class OreCoreExtendedItems {
 	public static AluminumClump aluminumClump;
 	public static AluminumCrystal aluminumCrystal;
 	public static AluminumShard aluminumShard;
-	
+
 	public static BrassClump brassClump;
 	public static BrassCrystal brassCrystal;
 	public static BrassShard brassShard;
-	
+
 	public static BronzeClump bronzeClump;
 	public static BronzeCrystal bronzeCrystal;
 	public static BronzeShard bronzeShard;
-	
+
 	public static CopperClump copperClump;
 	public static CopperCrystal copperCrystal;
 	public static CopperShard copperShard;
-	
+
 	public static GoldClump goldClump;
 	public static GoldCrystal goldCrystal;
 	public static GoldShard goldShard;
-	
+
 	public static IronClump ironClump;
 	public static IronCrystal ironCrystal;
 	public static IronShard ironShard;
-	
+
 	public static ManganeseClump manganeseClump;
 	public static ManganeseCrystal manganeseCrystal;
 	public static ManganeseShard manganeseShard;
-	
+
 	public static NickelClump nickelClump;
 	public static NickelCrystal nickelCrystal;
 	public static NickelShard nickelShard;
-	
+
 	public static ObsidianClump obsidianClump;
 	public static ObsidianCrystal obsidianCrystal;
 	public static ObsidianShard obsidianShard;
-	
+
 	public static OsmiumClump osmiumClump;
 	public static OsmiumCrystal osmiumCrystal;
 	public static OsmiumShard osmiumShard;
-	
+
 	public static SilverClump silverClump;
 	public static SilverCrystal silverCrystal;
 	public static SilverShard silverShard;
-	
+
 	public static SteelClump steelClump;
 	public static SteelCrystal steelCrystal;
 	public static SteelShard steelShard;
-	
+
 	public static TinClump tinClump;
 	public static TinCrystal tinCrystal;
 	public static TinShard tinShard;
-	
+
 	public static ZincClump zincClump;
 	public static ZincCrystal zincCrystal;
 	public static ZincShard zincShard;
-	
+
 	public static AluminumDirtyDust aluminumDirtyDust;
 	public static BrassDirtyDust brassDirtyDust;
 	public static BronzeDirtyDust bronzeDirtyDust;
@@ -156,17 +160,17 @@ public class OreCoreExtendedItems {
 	public static SteelDirtyDust steelDirtyDust;
 	public static TinDirtyDust tinDirtyDust;
 	public static ZincDirtyDust zincDirtyDust;
-	
+
 	public static DiamondDust diamondDust;
 	public static DiamondNugget diamondNugget;
 	public static DiamondIngot diamondIngot;
 	public static DiamondDirtyDust diamondDirtyDust;
-	
+
 	public static ObsidianDust obsidianDust;
 	public static ObsidianNugget obsidianNugget;
 	public static ObsidianIngot obsidianIngot;
 	public static ObsidianDirtyDust obsidianDirtyDust;
-	
+
 	public static LeadClump leadClump;
 	public static LeadCrystal leadCrystal;
 	public static LeadShard leadShard;
@@ -190,5 +194,157 @@ public class OreCoreExtendedItems {
 		SteelExt.init();
 		TinExt.init();
 		ZincExt.init();
+	}
+
+	public static Optional<Item> getCrystalByName(String name) {
+		String nameToUse = name.toLowerCase().replace("crystal", "");
+		if ("aluminum".equals(nameToUse)) {
+			return Optional.of((Item) aluminumCrystal);
+		}
+		if ("brass".equals(nameToUse)) {
+			return Optional.of((Item) brassCrystal);
+		}
+		if ("bronze".equals(nameToUse)) {
+			return Optional.of((Item) bronzeCrystal);
+		}
+		if ("copper".equals(nameToUse)) {
+			return Optional.of((Item) copperCrystal);
+		}
+		if ("gold".equals(nameToUse)) {
+			return Optional.of((Item) goldCrystal);
+		}
+		if ("iron".equals(nameToUse)) {
+			return Optional.of((Item) ironCrystal);
+		}
+		if ("lead".equals(nameToUse)) {
+			return Optional.of((Item) leadCrystal);
+		}
+		if ("manganese".equals(nameToUse)) {
+			return Optional.of((Item) manganeseCrystal);
+		}
+		if ("nickel".equals(nameToUse)) {
+			return Optional.of((Item) nickelCrystal);
+		}
+		if ("obsidian".equals(nameToUse)) {
+			return Optional.of((Item) obsidianCrystal);
+		}
+		if ("osmium".equals(nameToUse)) {
+			return Optional.of((Item) osmiumCrystal);
+		}
+		if ("silver".equals(nameToUse)) {
+			return Optional.of((Item) silverCrystal);
+		}
+		if ("steel".equals(nameToUse)) {
+			return Optional.of((Item) steelCrystal);
+		}
+		if ("tin".equals(nameToUse)) {
+			return Optional.of((Item) tinCrystal);
+		}
+		if ("zinc".equals(nameToUse)) {
+			return Optional.of((Item) zincCrystal);
+		}
+		return Optional.absent();
+	}
+
+	public static Optional<Item> getClumpByName(String name) {
+		String nameToUse = name.toLowerCase().replace("clump", "");
+		if ("aluminum".equals(nameToUse)) {
+			return Optional.of((Item) aluminumClump);
+		}
+		if ("brass".equals(nameToUse)) {
+			return Optional.of((Item) brassClump);
+		}
+		if ("bronze".equals(nameToUse)) {
+			return Optional.of((Item) bronzeClump);
+		}
+		if ("copper".equals(nameToUse)) {
+			return Optional.of((Item) copperClump);
+		}
+		if ("gold".equals(nameToUse)) {
+			return Optional.of((Item) goldClump);
+		}
+		if ("iron".equals(nameToUse)) {
+			return Optional.of((Item) ironClump);
+		}
+		if ("lead".equals(nameToUse)) {
+			return Optional.of((Item) leadClump);
+		}
+		if ("manganese".equals(nameToUse)) {
+			return Optional.of((Item) manganeseClump);
+		}
+		if ("nickel".equals(nameToUse)) {
+			return Optional.of((Item) nickelClump);
+		}
+		if ("obsidian".equals(nameToUse)) {
+			return Optional.of((Item) obsidianClump);
+		}
+		if ("osmium".equals(nameToUse)) {
+			return Optional.of((Item) osmiumClump);
+		}
+		if ("silver".equals(nameToUse)) {
+			return Optional.of((Item) silverClump);
+		}
+		if ("steel".equals(nameToUse)) {
+			return Optional.of((Item) steelClump);
+		}
+		if ("tin".equals(nameToUse)) {
+			return Optional.of((Item) tinClump);
+		}
+		if ("zinc".equals(nameToUse)) {
+			return Optional.of((Item) zincClump);
+		}
+		return Optional.absent();
+	}
+	
+	public static Optional<Item> getShardByName(String name) {
+		
+		String nameToUse = name.toLowerCase().replace("shard", "");
+		
+		if ("aluminum".equals(nameToUse)) {
+			return Optional.of((Item) aluminumShard);
+		}
+		if ("brass".equals(nameToUse)) {
+			return Optional.of((Item) brassShard);
+		}
+		if ("bronze".equals(nameToUse)) {
+			return Optional.of((Item) bronzeShard);
+		}
+		if ("copper".equals(nameToUse)) {
+			return Optional.of((Item) copperShard);
+		}
+		if ("gold".equals(nameToUse)) {
+			return Optional.of((Item) goldShard);
+		}
+		if ("iron".equals(nameToUse)) {
+			return Optional.of((Item) ironShard);
+		}
+		if ("lead".equals(nameToUse)) {
+			return Optional.of((Item) leadShard);
+		}
+		if ("manganese".equals(nameToUse)) {
+			return Optional.of((Item) manganeseShard);
+		}
+		if ("nickel".equals(nameToUse)) {
+			return Optional.of((Item) nickelShard);
+		}
+		if ("obsidian".equals(nameToUse)) {
+			return Optional.of((Item) obsidianShard);
+		}
+		if ("osmium".equals(nameToUse)) {
+			return Optional.of((Item) osmiumShard);
+		}
+		if ("silver".equals(nameToUse)) {
+			return Optional.of((Item) silverShard);
+		}
+		if ("steel".equals(nameToUse)) {
+			return Optional.of((Item) steelShard);
+		}
+		if ("tin".equals(nameToUse)) {
+			return Optional.of((Item) tinShard);
+		}
+		if ("zinc".equals(nameToUse)) {
+			return Optional.of((Item) zincShard);
+		}
+		return Optional.absent();
 	}
 }

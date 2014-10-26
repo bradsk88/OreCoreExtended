@@ -8,10 +8,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class CommonProxy {
 
 	public void preInit(FMLPreInitializationEvent e) {
-		OreCoreExtendedItems.init();
 	}
 	
 	public void init(FMLInitializationEvent e) {
+		OreCoreExtendedItems.init();
 	}
 	
 	public void postInit(FMLPostInitializationEvent e) {

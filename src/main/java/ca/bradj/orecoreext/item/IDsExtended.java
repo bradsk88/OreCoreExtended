@@ -1,9 +1,7 @@
 package ca.bradj.orecoreext.item;
 
 public class IDsExtended {
-
-	// TODO: Pick better IDs
-
+ 
 	public static final int ALUMINUM_CLUMP_ID = 4200;
 	public static final int ALUMINUM_CRYSTAL_ID = 4201;
 	public static final int ALUMINUM_SHARD_ID = 4202;
