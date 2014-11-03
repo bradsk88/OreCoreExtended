@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.silver;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.silver.SilverClump;
-import ca.bradj.orecoreext.item.silver.SilverCrystal;
-import ca.bradj.orecoreext.item.silver.SilverShard;
 
 public class SilverExt {
 
@@ -35,5 +32,5 @@ public class SilverExt {
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
 	}
-	
+
 }

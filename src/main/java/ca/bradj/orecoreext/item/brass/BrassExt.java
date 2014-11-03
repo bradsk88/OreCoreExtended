@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.brass;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.brass.BrassClump;
-import ca.bradj.orecoreext.item.brass.BrassCrystal;
-import ca.bradj.orecoreext.item.brass.BrassShard;
 
 public class BrassExt {
 

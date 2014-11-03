@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.gold;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.gold.GoldClump;
-import ca.bradj.orecoreext.item.gold.GoldCrystal;
-import ca.bradj.orecoreext.item.gold.GoldShard;
 
 public class GoldExt {
 

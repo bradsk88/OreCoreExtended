@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.nickel;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.nickel.NickelClump;
-import ca.bradj.orecoreext.item.nickel.NickelCrystal;
-import ca.bradj.orecoreext.item.nickel.NickelShard;
 
 public class NickelExt {
 

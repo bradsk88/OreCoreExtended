@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.tin;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.tin.TinClump;
-import ca.bradj.orecoreext.item.tin.TinCrystal;
-import ca.bradj.orecoreext.item.tin.TinShard;
 
 public class TinExt {
 
@@ -35,5 +32,5 @@ public class TinExt {
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
 	}
-	
+
 }

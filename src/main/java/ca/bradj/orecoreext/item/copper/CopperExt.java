@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.copper;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.copper.CopperClump;
-import ca.bradj.orecoreext.item.copper.CopperCrystal;
-import ca.bradj.orecoreext.item.copper.CopperShard;
 
 public class CopperExt {
 

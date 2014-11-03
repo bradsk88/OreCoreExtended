@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.zinc;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.zinc.ZincClump;
-import ca.bradj.orecoreext.item.zinc.ZincCrystal;
-import ca.bradj.orecoreext.item.zinc.ZincShard;
 
 public class ZincExt {
 
@@ -35,5 +32,5 @@ public class ZincExt {
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
 	}
-	
+
 }

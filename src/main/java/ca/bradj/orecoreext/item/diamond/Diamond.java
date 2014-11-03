@@ -1,7 +1,7 @@
 package ca.bradj.orecoreext.item.diamond;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
 
@@ -22,7 +22,7 @@ public class Diamond {
 		OreCoreExtendedItems.diamondNugget = OreCoreRegistration.registerItem(new DiamondNugget(IDsExtended.DIAMOND_NUGGET_ID), DIAMOND_NUGGET_NAME);
 		OreCoreExtendedItems.diamondIngot = OreCoreRegistration.registerItem(new DiamondIngot(IDsExtended.DIAMOND_INGOT_ID), DIAMOND_INGOT_NAME);
 		OreCoreExtendedItems.diamondDirtyDust = OreCoreRegistration.registerItem(new DiamondDirtyDust(IDsExtended.DIAMOND_DIRTY_DUST_ID), DIAMOND_DIRTY_DUST_NAME);
-		
+
 		OreDictionary.registerOre(DUST_DICT, OreCoreExtendedItems.diamondDust);
 		OreDictionary.registerOre(INGOT_DICT, OreCoreExtendedItems.diamondIngot);
 		OreDictionary.registerOre(NUGGET_DICT, OreCoreExtendedItems.diamondNugget);

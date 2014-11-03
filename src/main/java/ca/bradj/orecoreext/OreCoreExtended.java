@@ -14,15 +14,15 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-@Mod(modid = OreCoreExtended.MODID, version = OreCoreExtended.VERSION)
+@Mod(modid = OreCoreExtended.MODID, version = OreCoreExtended.VERSION, dependencies = "required-after:OreCore@[2.1.0,)")
 public class OreCoreExtended {
-	
+
 	@SidedProxy(clientSide="ca.bradj.orecoreext.ClientProxy", serverSide="ca.bradj.orecoreext.ServerProxy")
     public static CommonProxy proxy;
-	
+
 	@SuppressWarnings("unused")
 	private static final Logger LOGGER = Logger.getLogger("Minecraft");
-	
+
 	public static final String MODID = "OreCoreExtended";
 	public static final String VERSION = "0.1.0";
 
@@ -33,7 +33,7 @@ public class OreCoreExtended {
 	        return OreCoreExtendedItems.copperCrystal;
 	    }
 	};
-	
+
     /**
      * Run before anything else. Read your config, create blocks, items, etc, and
      * register them with the GameRegistry.
@@ -42,7 +42,7 @@ public class OreCoreExtended {
     public void preInit(FMLPreInitializationEvent e) {
         OreCoreExtended.proxy.preInit(e);
     }
-    
+
     /**
      * Do your mod setup. Build whatever data structures you care about. Register recipes.
      */
@@ -58,5 +58,5 @@ public class OreCoreExtended {
     public void postInit(FMLPostInitializationEvent e) {
     	OreCoreExtended.proxy.postInit(e);
     }
-    
+
 }

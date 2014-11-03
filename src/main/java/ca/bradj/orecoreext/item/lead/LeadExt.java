@@ -1,7 +1,7 @@
 package ca.bradj.orecoreext.item.lead;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
 
@@ -31,6 +31,6 @@ public class LeadExt {
 
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
-	}	
+	}
 
 }

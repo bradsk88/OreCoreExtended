@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.bronze;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.bronze.BronzeClump;
-import ca.bradj.orecoreext.item.bronze.BronzeCrystal;
-import ca.bradj.orecoreext.item.bronze.BronzeShard;
 
 
 public class BronzeExt {

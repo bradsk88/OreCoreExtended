@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.manganese;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.manganese.ManganeseClump;
-import ca.bradj.orecoreext.item.manganese.ManganeseCrystal;
-import ca.bradj.orecoreext.item.manganese.ManganeseShard;
 
 public class ManganeseExt {
 
@@ -34,5 +31,5 @@ public class ManganeseExt {
 
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
-	}	
+	}
 }

@@ -1,4 +1,4 @@
-def modVersion = '1.7.10-0.1.4-SNAPSHOT'
+def modVersion = '1.7.10-1.0.1-SNAPSHOT'
 def modName = 'OreCoreExtended'
 
 buildscript {
@@ -51,7 +51,7 @@ archivesBaseName = "OreCoreExtended"
 minecraft {
     version = "1.7.10-10.13.2.1230"
     assetDir = "eclipse/assets"
-}
+} 
 
 repositories {
 	maven {
@@ -63,10 +63,28 @@ repositories {
         url 'http://bradj.ca:8081/nexus/content/repositories/releases'
  	}
 }
-
-dependencies {
-    compile 'ca.bradj:OreCore:1.7.10-2.0.0'
+configurations {
+    shade
+    compile.extendsFrom shade
 }
+
+dependencies { 
+	shade 'ca.bradj:Forge:1.7.10-1.0.0-SNAPSHOT'
+    compile 'ca.bradj:OreCore:1.7.10-2.1.1-SNAPSHOT'
+	compile 'ca.bradj:OreCoreMin:1.7.10-1.0.3-SNAPSHOT'
+}
+
+jar {
+    configurations.shade.each { dep ->
+        from(project.zipTree(dep)){
+            exclude 'META-INF', 'META-INF/**'
+        }
+    }
+}
+
+minecraft {
+    srgExtra "PK: ca/bradj/forge ca/bradj/forge_1_0_0"
+} 
 
 processResources
 {

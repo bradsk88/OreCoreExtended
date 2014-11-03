@@ -1,7 +1,7 @@
 package ca.bradj.orecoreext.item.aluminum;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
 
@@ -11,7 +11,7 @@ public class AluminumExt {
 	private static final String ALUMINUM_SHARD_DICT = "shardAluminum";
 	private static final String ALUMINUM_CLUMP_DICT = "clumpAluminum";
 	private static final String ALUMINUM_DIRTY_DUST_DICT = "dustDirtyAluminum";
-	
+
 	private static final String ALUMINUM_CRYSTAL_NAME = "Aluminum.Crystal";
 	private static final String ALUMINUM_SHARD_NAME = "Aluminum.Shard";
 	private static final String ALUMINUM_CLUMP_NAME = "Aluminum.Clump";

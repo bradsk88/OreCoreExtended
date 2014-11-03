@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.osmium;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.osmium.OsmiumClump;
-import ca.bradj.orecoreext.item.osmium.OsmiumCrystal;
-import ca.bradj.orecoreext.item.osmium.OsmiumShard;
 
 public class OsmiumExt {
 
@@ -35,5 +32,5 @@ public class OsmiumExt {
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
 	}
-	
+
 }

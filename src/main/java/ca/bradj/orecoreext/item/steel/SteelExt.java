@@ -1,12 +1,9 @@
 package ca.bradj.orecoreext.item.steel;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
+import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecoreext.item.IDsExtended;
 import ca.bradj.orecoreext.item.OreCoreExtendedItems;
-import ca.bradj.orecoreext.item.steel.SteelClump;
-import ca.bradj.orecoreext.item.steel.SteelCrystal;
-import ca.bradj.orecoreext.item.steel.SteelShard;
 
 public class SteelExt {
 
@@ -35,5 +32,5 @@ public class SteelExt {
 		//TODO: Add recipes errwhere, if appropriate (check what Mekanism does) -BJ
 
 	}
-	
+
 }
